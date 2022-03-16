@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="form.js"></script>
+    <script src="jasmine-standalone-4.0.0/src/md5Encrypt.js"></script>
+    <script src="jasmine-standalone-4.0.0/lib/md5.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jasmine-standalone-4.0.0/src/checkLogin.js"></script>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+    </style>;
+    <title>JS-Lab 2/2022</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <form action="#" method="post" id="form" name="user_form">
+        <fieldset>
+            <legend>User Authentication</legend>
+            <div id="form__Name">
+                <label for="user_Name" id="form__Name" >Username:</label>
+                <input type="text" class="form__Name" name="user_Name"/>
+            </div>
+            <div id="form__Pass">
+                <label for="user_Pass" id="form__Pass">Password</label>
+                <input type="password" class="form__Pass" name="user_Pass"/>
+            </div>
+            
+            <div>
+                <input type="submit" id="form__submit" value="Log In" name="submit"/>
+            </div>
+        </fieldset>
+    </form>
+    <div id="hiddenmsg">
+        <!-- <div>Username: <span id="hiddenmsg__Name"></span></div> 
+        <div>Password: <span id="hiddenmsg__Pass"></span></div>  -->
+    </div>
+    
+</body>
+</html>

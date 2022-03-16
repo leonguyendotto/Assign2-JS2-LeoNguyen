@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#form {
+    background-color: rgba(224, 253, 207, 0.808);
+    border-style: dotted;
+}
+
+fieldset{
+    margin: 2em 3em 2em 1em;
+    width: 25em;
+}
+
+#form__Name{
+    padding-top: 0.2em;
+}
+
+#form__Pass {
+    padding-top: 0.5em;
+}
+
+#form__Name{
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(209, 209, 209);
+}
+
+#form__Pass{
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(209, 209, 209);
+}
+
+#hiddenmsg {
+    display: none;
+}
+
+#form__submit{
+    margin-left: 2em;
+    margin-top: 1em;
+}
